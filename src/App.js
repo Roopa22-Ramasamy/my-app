@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+
 import './App.css';
 
+//import Chat from './ReactComponents/Chat.jsx';
+//import Sidebar from './ReactComponents/Sidebar';
+//import LoginPage from './ReactComponents/Login';
+//import Chat from './ReactComponents/Chat';
+//import Login from './ReactComponents/Login'
+import Router from './ReactComponents/Router';
 function App() {
   return (
+  
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+           <Router/>
     </div>
+  
   );
 }
 
 export default App;
+
+
+
+
